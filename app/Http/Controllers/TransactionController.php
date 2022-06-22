@@ -151,7 +151,7 @@ class TransactionController extends Controller
         try {
             $transaction->delete();
             $response = [
-                'message' => 'Transaction deleted'
+                'message' => 'Transaction delete'
             ];
             
             return response()->json($response, Response::HTTP_OK);
